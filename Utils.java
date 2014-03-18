@@ -18,8 +18,8 @@ public class Utils {
      * Calculates transfer entropy (from y to x) assuming binary data for time
      * series X and Y
      *
-     * @param x the leading time series
-     * @param y the (possible) causal time series
+     * @param X the leading time series
+     * @param Y the causal time series
      * @param s the lag between the time series
      * @return
      */
